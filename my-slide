@@ -1,1 +1,12 @@
- https://github.com/denders02/github-slideshow/commit/dd0aae90b722f7421660ed187a5d774a22d968f6
+
+
+https://github.com/denders02/github-slideshow.git
+
+git fetch origin
+git checkout -b denders02-patch-1 origin/denders02-patch-1
+git merge master
+
+git checkout master
+git merge --no-ff denders02-patch-1
+git push origin master
+
